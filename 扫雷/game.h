@@ -12,4 +12,5 @@ void huizhi(char board[ROWS][COLS], int row, int col);
 void setboom(char board[ROWS][COLS], int row, int col); 
 void player(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col);
 int mathcount(char board[ROWS][COLS], int x, int y);
-//void jiance(char mine[ROWS][COLS], char show[ROWS][COLS], int x, int y,int win);
+void play(char show[ROWS][COLS],char mine[ROWS][COLS], int x, int y);
+int jiance(char mine[ROWS][COLS],char show[ROWS][COLS]);
